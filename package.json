@@ -1,0 +1,27 @@
+{
+  "name": "@salla.sa/twilight-bundles-monorepo",
+  "private": true,
+  "version": "0.1.1",
+  "description": "Monorepo for Salla Twilight Bundles SDK and Starter Kit",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "TWILIGHT_FORM_BUILDER_MOCK_BASE_URL=http://localhost:8787 TWILIGHT_BUNDLES_URL=http://localhost:3000/dist/twilight-bundles.js pnpm --parallel -r dev",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format"
+  },
+  "keywords": [
+    "salla",
+    "ecommerce",
+    "web-components",
+    "twilight"
+  ],
+  "author": "Salla",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.x"
+}

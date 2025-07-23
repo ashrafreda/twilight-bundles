@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Only include these specific files/directories
+!dist/
+!types/
+!bin/
+!README.md
+!package.json
