@@ -1,8 +1,0 @@
-name = "twilight-bundles-form-builder-mock"
-main = "src/index.ts"
-compatibility_date = "2023-01-01"
-
-
-routes = [
-  { pattern = "https://salla.design/api/v1/form-builder-mock*", zone_name = "salla.design" },
-]
